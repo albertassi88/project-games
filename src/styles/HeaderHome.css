@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > svg {
+    color: white;
+    font-size: 40px;
+    margin: 40px;
+}
+
+header > svg:nth-child(3) {
+    font-size: 45px;
+}
+
+header > h2 {
+    font-size: 45px;
+    color: white;
+}

@@ -1,0 +1,65 @@
+.container-navBar {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.container-navBar > div {
+    width: 365px;
+    height: 290px;
+    background-color: white;
+    margin: 10px;
+}
+
+.container-navBar > div > a > img {
+    width: 100%;
+}
+
+.container-navBar > div > a > h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: rgb(37, 36, 36);
+    text-align: center;
+    margin-top: 27px;
+}
+
+.container-navBar > div:hover {
+    transform: scale(1.05);
+}
+
+.box-category > p {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 550px) {
+    .box-category > p {
+        font-size: 40px;
+    }
+    .container-navBar > div {
+        width: 345px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .box-category > p {
+        font-size: 35px;
+    }
+    .container-navBar > div{
+        width: 325px;
+        height: 250px;
+    }
+}
+
+
